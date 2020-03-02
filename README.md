@@ -1,7 +1,6 @@
 # exercicios-javascript
  Exercícios de JavaScript
 
- Criado por Gustavo Guanabara em 2020
+ Aqui vão os exercícios que foram feitos durante as aulas de JavaScript.
 
  1. [Olá, Mundo](/exercicios-javascript/ex001)
-Testando...
