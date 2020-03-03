@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Diga seu nome</h1>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome completo">
+            <input type="submit" value="Pronto!" formaction="javascript:digitou()">
+        </form>
+        <section id="resposta">
+
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Gustavo Guanabara</p>
+    </footer>
+    <script>
+        function digitou() {
+            let nome = window.document.querySelector('input#nome')
+            let resp = window.document.querySelector('section#resposta')
+            let n = String(nome.value)
+            resp.innerHTML = 
+
+        }
+    </script>
+</body>
+</html>
